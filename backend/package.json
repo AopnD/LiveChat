@@ -1,0 +1,31 @@
+{
+  "name": "live-chat-server",
+  "version": "1.0.0",
+  "description": "this is the backend for the live chat app",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AopnD/LiveChat.git"
+  },
+  "author": "Omer Malka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AopnD/LiveChat/issues"
+  },
+  "homepage": "https://github.com/AopnD/LiveChat#readme",
+  "devDependencies": {
+    "axios": "1.5.0",
+    "jest": "29.6.4",
+    "nodemon": "3.0.1",
+    "supertest": "6.3.3"
+  },
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "16.3.1",
+    "express": "4.18.2"
+  }
+}

@@ -30,5 +30,6 @@ describe('Authentication API', () => {
 
     expect(response.status).toBe(200);
     expect(response.body.username).toBe(username);
+    expect(response.body.is_authenticated).toBe(true);
   });
 });

@@ -1,0 +1,50 @@
+# LIVECHAT
+
+LiveChat is a full-stack application that allows you to send messages and chat with friends using chatengine.io .  It provides an easy way to set up a chat room and start messaging with friends you want.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed (https://nodejs.org/)
+- Chatengine account, Project ID
+ and Private Key (https://chatengine.io)
+
+ ### Installation
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/AopnD/LiveChat.git
+
+2. Navigate to the project directories:
+Terminal 1
+    cd backend
+Terminal 2
+    cd frontend
+    
+
+3. Install project dependencies:
+    npm install
+
+4. Create a .env file in backend dir containing the following variables.
+ PROJECT_ID=<project_id_from_chatengine>
+ PRIVATE_KEY=<private_key_from_chatengine>
+
+5. Create a .env file in frontend dir containing the following variables.
+VITE_AUTH_PAGE_CONFIG=</authenticate_url_path>
+VITE_PROJECT_ID=<project_id_from_chatengine>
+
+### Usage
+1. in the backend terminal run npm start.
+2. in the frontend terminal run npm run dev.
+3. choose a username.
+4. log in.
+5. choose who to chat with.
+
+### Testing
+Run unit tests in the backend dir using Jest:
+    npm test
+
+### License
+This project is licensed under the MIT License - see the LICENSE file for details.
